@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
-  word-wrap: break-word;
-  color: inherit;
+	box-sizing: border-box;
+	word-wrap: break-word;
+	color: inherit;
 }
 html, body {
   margin: 0px;
@@ -9,9 +9,9 @@ html, body {
   background: #f1f2f5;
 }
 body {
-  width: 100%;
-  min-width: 320px;
-  color: #555;
+	width: 100%;
+	min-width: 320px;
+	color: #555;
 }
 #__nuxt {
   margin: 0px;
@@ -31,38 +31,38 @@ body {
   border-color: black;
 }
 .container-main {
-  margin: 0px auto;
-  width: 100%;
+	margin: 0px auto;
+	width: 100%;
 }
 .article-title {
-  font-size: 34px;
+	font-size: 34px;
 }
 a, a:visited {
-  color: inherit;
+	color: inherit;
 }
 .align-left {
-  text-align: left;
+	text-align: left;
 }
 .align-right {
-  text-align: right;
+	text-align: right;
 }
 .font-arial {
   font-family: Arial;
 }
 .blog-link {
   text-decoration: none;
-  font-weight: bold;
+	font-weight: bold;
 }
 .blog-link:hover {
   color: gray;
 }
 .blog-date, .blog-tags {
-  font-family: "Arial";
-  color: gray;
-  font-size: 14px;
+	font-family: "Arial";
+	color: gray;
+	font-size: 14px;
 }
 .blog-lang {
-  padding: 0px 5px;
+	padding: 0px 5px;
   font-size: 14px;
   text-align: center;
   color: gray;
@@ -72,12 +72,12 @@ a, a:visited {
   display: inline-block;
 }
 .blog-lang a {
-  text-decoration: none;
-  display: inline-block;
+	text-decoration: none;
+	display: inline-block;
 }
 .blog-lang:hover {
-  color: black;
-  border-color: black;
+	color: black;
+	border-color: black;
 }
 .blog-cat, .blog-tag {
   margin: 1px;
@@ -89,26 +89,26 @@ a, a:visited {
   display: inline-block;
 }
 .blog-cat {
-  color: #4c4c4c;
-  border: 1px solid #4c4c4c;
+	color: #4c4c4c;
+	border: 1px solid #4c4c4c;
 }
 .blog-tag {
-  color: white;
-  background: gray;
+	color: white;
+	background: gray;
 }
 .blog-cat:hover {
-  color: white;
+	color: white;
 }
 .blog-cat:hover, .blog-tag:hover {
-  background: black;
+	background: black;
 }
 .blog-cat i, .blog-tag i {
-  color: inherit;
+	color: inherit;
 }
 .blog-cat a, .blog-tag a{
-  text-decoration: none;
-  color: inherit;
-  display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
 }
 .font-10 {
   font-size: 10px;
@@ -138,7 +138,7 @@ a, a:visited {
   text-align: center;
 }
 .m-top-0 {
-  margin-top: 0px;
+	margin-top: 0px;
 }
 /* toTop button start */
 /* https://www.liaoxuefeng.com/article/895922498171008 */
@@ -207,8 +207,8 @@ a, a:visited {
 }
 /* toTop button end */
 .go-top-hidden {
-  opacity: 0;
-  display: none;
+	opacity: 0;
+	display: none;
 }
 footer {
   padding-bottom: 1px;
@@ -216,39 +216,44 @@ footer {
   background: white;
 }
 footer p {
-  font-size: 14px;
-  text-align: center;
+	font-size: 14px;
+	text-align: center;
 }
 .hidden {
-  display: none;
+	display: none;
+}
+.year-btn {
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
 }
 
 @media all and (max-width: 1080px) {
-  nav {
-    width: 100%;
-  }
-  main {
-    width: auto;
-  }
-  .main-content {
-    min-height: calc(100vh - 112px);
-  }
-  .main-content, .main-content-unit {
-    margin: 0px;
-    width: auto;
-  }
+	nav {
+		width: 100%;
+	}
+	main {
+		width: auto;
+	}
+	.main-content {
+		min-height: calc(100vh - 112px);
+	}
+	.main-content, .main-content-unit {
+		margin: 0px;
+		width: auto;
+	}
 }
 
 @media all and (max-width: 600px) {
-  .container {
-    padding-top: 40px;
-  }
-  .main-content {
-    min-height: calc(100vh - 112px);
-  }
+	.container {
+		padding-top: 40px;
+	}
+	.main-content {
+		min-height: calc(100vh - 112px);
+	}
 }
 .isShow {
-  display: block;
+	display: block;
 }
 
 .blog-wrap {
